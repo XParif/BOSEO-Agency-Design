@@ -1,11 +1,13 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
@@ -231,4 +233,69 @@ nav .container .nav-list ul li:hover {
 .services-section .container .services-box .box p {
   color: #747474;
   line-height: 23px;
+}
+
+/* About Us section start here  */
+.about-us {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-us .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us .container .image {
+  width: 40%;
+}
+
+.about-us .container .information {
+  width: 40%;
+}
+
+.about-us .container .information h5{
+  color: #eb4435;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.about-us .container .information h2{
+  font-size: 44px;
+  margin-bottom: 42px;
+}
+
+.about-us .container .information p{
+  color: #747474;
+  line-height: 1.65;
+  margin-bottom: 76px;
+}
+.about-us .container .information .btn-group{}
+.about-us .container .information .btn-group .more-btn{
+  color: white;
+  background-color: #eb4435;
+  padding: 14px 37px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 25px;
+  transition: .5s;
+}
+
+.about-us .container .information .btn-group .more-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-us .container .information .btn-group .see-btn{
+  color: #eb4435;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: .5s;
+}
+.about-us .container .information .btn-group .see-btn:hover {
+  color: black;
 }
