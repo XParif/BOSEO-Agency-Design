@@ -299,3 +299,53 @@ nav .container .nav-list ul li:hover {
 .about-us .container .information .btn-group .see-btn:hover {
   color: black;
 }
+
+
+/* Dominate section start here  */
+
+.dominate {
+  height: 60vh;
+  background-color: #F0F2F4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.dominate .container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dominate .container img {}
+.dominate .container .information {
+  max-width: 700px;
+}
+
+.dominate .container .information h2 {
+  font-size: 50px;
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.dominate .container .information p {
+  color: #747474;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 67px;
+  text-align: center;
+}
+
+.dominate .container .information a {
+  display: inline-block;
+  padding: 14px 37px;
+  border-radius: 5px;
+  color: white;
+  background-color: #eb4435;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 35%;
+  margin-bottom: 10vh;
+}
